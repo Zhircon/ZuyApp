@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Rutas UV Xalapa</string>
+    <string name="desarrollador">Desarrollado por : Yasser Yaid Gapi Perez</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--MAIN ACTIVITY-->
+    <string name="btn_Login">Login</string>
+    <string name="btn_Registro">Registro</string>
+
+    <!--PANTALLA_DE_REGISTRO ACTIVITY-->
+    <string name="txt_CrearCuenta">Crear una cuenta</string>
+    <string name="et_NombreUsuario">Nombre de usuario</string>
+    <string name="et_Correo">Correo electronico</string>
+    <string name="et_Contraseña">Contraseña</string>
+    <string name="et_ConfirmarContraseña">Confirmar contraseña</string>
+    <string name="btn_RegistrarUsuario">Registrar</string>
+    <string name="txt_TengoUnaCuenta">Tengo una cuenta</string>
+
+    <!--PANTALLA_DE_LOGIN ACTIVITY-->
+    <string name="txt_IniciarSesion">Iniciar Sesion</string>
+    <string name="et_CorreoLogin">Correo</string>
+    <string name="et_PasswordLogin">Contraseña</string>
+    <string name="btn_Ingresar">Ingresar</string>
+    <string name="txt_NuevoUsuario">¿No tiene una cuenta? Registrese</string>
+
+    <!--MENU LATERAL CLIENTE-->
+    <string name="txt_Opciones">Opciones</string>
+    <string name="txt_MasOpciones">Mas opciones</string>
+    <string name="opc_PerfilCliente">Perfil de usuario</string>
+    <string name="opc_ListarRutaCliente">Rutas</string>
+    <string name="opc_ListarFacultadCliente">Facultades</string>
+    <string name="opc_ListarCamionCliente">Camiones</string>
+    <string name="opc_ComentariosCliente">Enviar comentarios</string>
+    <string name="opc_AcercaDe">Acerca de</string>
+    <string name="opc_CompartirAplicacion">Compartir aplicacion</string>
+
+    <!--MENU LATERAL ADMINISTRADOR-->
+    <string name="opc_ListarComentarioAdministrador">Comentarios</string>
+    <string name="opc_AgregarColoniasAdministrador">Agregar colonias</string>
+    <string name="opc_ModificarEliminarColoniasAdministrador">Modificar/Eliminar colonias</string>
+    <string name="opc_AgregarParadasAdministrador">Agregar paradas</string>
+    <string name="opc_ModificarEliminarParadasAdministrador">Modificar/Eliminar paradas</string>
+    <string name="opc_AgregarFacultadesAdministrador">Agregar facultades</string>
+    <string name="opc_ModificarEliminarFacultadesAdministrador">Modificar/Eliminar facultad</string>
+    <string name="opc_AgregarCamionesAdministrador">Agregar camiones</string>
+    <string name="opc_ModificarEliminarCamionesAdministrador">Modificar/Eliminar camiones</string>
+    <string name="opc_AgregarRutasAdministrador">Agregar rutas</string>
+    <string name="opc_ModificarEliminarRutasAdministrador">Modificar/Eliminar rutas</string>
+    <string name="opc_AgregarItinerarioAdministrador">Agregar itinerario</string>
+    <string name="opc_ModificarEliminarItinerarioAdministrador">Modificar/Eliminar itinerario</string>
+
+    <!--FRAGMENTO DE MODIFICAR ELIMINAR COLONIA Y FRAGMENTO DE AGREGAR COLONIA-->
+    <string name="txt_AgregarColonia">Agregar colonia</string>
+    <string name="txt_ModificarEliminarColonia">Modificar/Eliminar colonia</string>
+    <string name="txt_SeleccioneColonia">Seleccione una colonia</string>
+    <string name="et_NombreColonia">Nombre de la colonia</string>
+    <string name="et_CodigoPostal">Codigo postal</string>
+
+    <!--FRAGMENTO DE MODIFICAR ELIMINAR CAMION Y FRAGMENTO DE AGREGAR CAMION-->
+    <string name="txt_AgregarCamion">Agregar camion</string>
+    <string name="txt_ModificarEliminarCamion">Modificar/Eliminar camion</string>
+    <string name="txt_SeleccioneCamion">Seleccione un camion</string>
+    <string name="et_NumeroCamion">Numero del camion</string>
+    <string name="et_ColorCamion">Color del camion</string>
+
+    <!--FRAGMENTO DE MODIFICAR ELIMINAR FACULTAD Y FRAGMENTO DE AGREGAR FACULTAD-->
+    <string name="txt_AgregarFacultad">Agregar facultad</string>
+    <string name="txt_ModificarEliminarFacultad">Modificar/Eliminar facultad</string>
+    <string name="txt_SeleccioneFacultad">Seleccione una facultad</string>
+    <string name="et_NombreFacultad">Nombre de la facultad</string>
+    <string name="et_CalleFacultad">Calle de la facultad</string>
+    <string name="et_NumeroTelefonoFacultad">Numero de telefono de la facultad</string>
+    <string name="et_CorreoFacultad">Correo electronico de la facultad</string>
+    <string name="et_SitioWebFacultad">Sitio web de la facultad</string>
+
+    <!--FRAGMENTO DE MODIFICAR ELIMINAR PARADA Y FRAGMENTO DE AGREGAR PARADA-->
+    <string name="txt_AgregarParada">Agregar parada</string>
+    <string name="txt_ModificarEliminarParada">Modificar/Eliminar parada</string>
+    <string name="txt_SeleccioneParada">Seleccione una parada</string>
+    <string name="txt_SeleccioneColoniaDeParada">Seleccione la colonia de la parada</string>
+    <string name="et_NombreCalleParada">Calle de la parada</string>
+    <string name="et_LatitudParada">Punto de latitud de la parada</string>
+    <string name="et_LongitudParada">Punto de longitud de la parada</string>
+
+    <!--FRAGMENTO DE MODIFICAR ELIMINAR RUTA Y FRAGMENTO DE AGREGAR RUTA-->
+    <string name="txt_AgregarRuta">Agregar ruta</string>
+    <string name="txt_ModificarEliminarRuta">Modificar/Eliminar ruta</string>
+    <string name="txt_SeleccioneRuta">Seleccione una ruta</string>
+    <string name="txt_SeleccioneCamionDeLaRuta">Seleccione camion que recorre la ruta</string>
+    <string name="et_NumeroRuta">Numero de la ruta</string>
+    <string name="et_NombreCallePtoInicialRuta"> Nombre de la calle del punto inicial de la ruta</string>
+    <string name="et_NombreCallePtoFinalRuta"> Nombre de la calle del punto final de la ruta</string>
+    <string name="et_LatitudPtoInicialRuta">Latitud del punto inicial de la ruta</string>
+    <string name="et_LongitudPtoInicialRuta">Longitud del punto inicial de la ruta</string>
+    <string name="et_LatitudPtoFinalRuta">Latitud del punto final de la ruta</string>
+    <string name="et_LongitudPtoFinalRuta">Longitud del punto final de la ruta</string>
+
+    <!--FRAGMENTO DE MODIFICAR ELIMINAR ITINERARIO Y FRAGMENTO DE ITINERARIO-->
+    <string name="txt_AgregarItinerario">Agregar itinerario</string>
+    <string name="txt_ModificarEliminarItinerario">Modificar/Eliminar itinerario</string>
+    <string name="txt_SeleccioneRutaItinerario">Seleccione la ruta para anexarle paradas</string>
+    <string name="txt_SeleccioneParadasDeLaRuta">Seleccione las paradas que se agregaran a la ruta</string>
+    <string name="txt_SeleccioneRutaEliminar">Seleccione la ruta</string>
+    <string name="txt_SeleccioneParadaEliminar">Seleccione parada</string>
+    <string name="btn_EliminarParadaDeItinerario">Eliminar parada de la ruta</string>
+    <string name="btn_EliminarItinerario">Eliminar Itinerario</string>
+
+    <!--FRAGMENTO DE ENVIAR COMENTARIOS CLIENTE -->
+    <string name="txt_EnviarComentario">Enviar comentarios</string>
+    <string name="txt_SeleccioneCategoriaComentario">Seleccione una categoria para el comentario</string>
+    <string name="txt_IngreseComentarios">Ingrese los comentarios para enviar al equipo de desarrollo</string>
+
+    <!--FRAGMENTO DE PERFIL DE USUARIO CLIENTE-->
+    <string name="txt_NombreUsuario">Nombre de usuario</string>
+    <string name="txt_CorreoUsuario">Correo de usuario</string>
+    <string name="txt_PasswordUsuario">Contraseña de usuario</string>
+    <string name="txt_ImagenPerfil">Imagen de perfil</string>
+
+    <!--OPCIONES PARA MENUS Y FRAGMENTS COMPARTIDOS-->
+    <string name="txt_CargarImagen">Cargar imagen</string>
+    <string name="txt_SeleccionarImagen">Seleccionar imagen</string>
+    <string name="txt_CambiarImagen">Haga clic y seleccione una imagen para cambiar</string>
+    <string name="et_UrlImagen">Ingrese la URL de la imagen</string>
+    <string name="opc_CerrarSesion">Cerrar sesion</string>
+    <string name="btn_Camara">Camara</string>
+    <string name="btn_Modificar">Modificar</string>
+    <string name="btn_Eliminar">Eliminar</string>
+    <string name="btn_Guardar">Guardar</string>
+    <string name="btn_Enviar">Enviar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/ruta_lay_design_ImagenRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ruta_lay_design_NumeroRuta"
+            android:text="Numero de ruta"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/ruta_lay_design_ImagenRuta"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ruta_lay_design_CalleInicial"
+            android:text="Calle de la terminal de inicio de la ruta"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/ruta_lay_design_NumeroRuta"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ruta_lay_design_CalleFinal"
+            android:text="Calle de la terminal final de la ruta"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/ruta_lay_design_CalleInicial"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

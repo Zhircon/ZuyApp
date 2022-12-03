@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.administrador.ModificarEliminarItinerarioAdministrador">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/assistantsemibold"
+            android:gravity="center"
+            android:text="@string/txt_ModificarEliminarItinerario"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/assistantsemibold"
+            android:gravity="center"
+            android:text="@string/txt_SeleccioneRutaEliminar"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerRuta_FragmentModificarEliminarItinerario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:drawablePadding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/assistantsemibold"
+            android:gravity="center"
+            android:text="@string/txt_SeleccioneParadaEliminar"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerParada_FragmentModificarEliminarItinerario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:drawablePadding="10dp"/>
+
+        <Button
+            android:id="@+id/btnEliminar_FragmentModificarElminarItinerario"
+            android:text="@string/btn_EliminarItinerario"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/assistantsemibold"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

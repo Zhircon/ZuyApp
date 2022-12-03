@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/cam_lay_design_ImagenCamion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cam_lay_design_NumeroCamion"
+            android:text="Numero del camion"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/cam_lay_design_ImagenCamion"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cam_lay_design_ColorCamion"
+            android:text="Color del camion"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/cam_lay_design_NumeroCamion"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cam_lay_design_Ruta"
+            android:text="Aqui deberia ir la ruta si se logra"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/cam_lay_design_ColorCamion"
+            android:layout_marginLeft="10dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

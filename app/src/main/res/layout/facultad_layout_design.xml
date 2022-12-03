@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/fac_lay_design_ImagenFacultad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fac_lay_design_NombreFacultad"
+            android:text="Nombre de la facultad"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/fac_lay_design_ImagenFacultad"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fac_lay_design_CalleFacultad"
+            android:text="Calle de la facultad"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/fac_lay_design_NombreFacultad"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fac_lay_design_NumeroTelefonoFacultad"
+            android:text="Numero Telefono"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/fac_lay_design_CalleFacultad"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fac_lay_design_CorreoFacultad"
+            android:text="Correo de la Facultad"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/fac_lay_design_NumeroTelefonoFacultad"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fac_lay_design_SitioWebFacultad"
+            android:text="Sitio Web de la Facultad"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/fac_lay_design_CorreoFacultad"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fac_lay_design_ColoniaFacultad"
+            android:text="Colonia de la Facultad"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@id/fac_lay_design_SitioWebFacultad"
+            android:layout_marginLeft="10dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

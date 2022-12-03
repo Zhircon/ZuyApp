@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragmentos.cliente.PerfilUsuarioCliente"
+    android:id="@+id/swipeContainer_fragmentPerfilUsuarioCliente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <ImageView
+                    android:id="@+id/iv_imagenPerfil_fragmentPerfilUsuarioCliente"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/no_profile_pic" />
+
+                <TextView
+                    android:id="@+id/textView_imagenPerfil_fragmentPerfilUsuarioCliente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_imagenPerfil_fragmentPerfilUsuarioCliente"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:hint="@string/txt_ImagenPerfil"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="@color/white"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/ic_profile"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_profile" />
+
+                <TextView
+                    android:id="@+id/textview_nombreUsuario_fragmentPerfilUsuarioCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignStart="@+id/ic_profile"
+                    android:layout_marginStart="50dp"
+                    android:hint="@string/txt_NombreUsuario"
+                    android:textSize="18sp" />
+
+                <!--Show email-->
+
+                <View
+                    android:id="@+id/divider_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textview_nombreUsuario_fragmentPerfilUsuarioCliente"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/ic_email"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/divider_name"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_email" />
+
+                <TextView
+                    android:id="@+id/textview_correoUsuario_fragmentPerfilUsuarioCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/divider_name"
+                    android:layout_alignStart="@+id/ic_email"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/txt_CorreoUsuario"
+                    android:textSize="18sp" />
+
+                <View
+                    android:id="@+id/divider_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textview_correoUsuario_fragmentPerfilUsuarioCliente"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/ic_password"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/divider_email"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_pwd_bw" />
+
+                <TextView
+                    android:id="@+id/textview_passwordUsuario_fragmentPerfilUsuarioCliente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/divider_email"
+                    android:layout_alignStart="@+id/ic_password"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/txt_PasswordUsuario"
+                    android:inputType="textPassword"
+                    android:textSize="18sp" />
+
+                <View
+                    android:id="@+id/divider_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textview_passwordUsuario_fragmentPerfilUsuarioCliente"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:elevation="10dp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

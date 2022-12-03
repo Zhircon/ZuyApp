@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id = "@+id/txt_Opciones"
+            android:title="@string/txt_Opciones">
+
+            <menu>
+
+                <item
+                    android:id="@+id/opc_PerfilCliente"
+                    android:title="@string/opc_PerfilCliente"
+                    android:icon="@drawable/icono_perfil_usuario"/>
+
+                <item
+                    android:id="@+id/opc_ListarRutaCliente"
+                    android:title="@string/opc_ListarRutaCliente"
+                    android:icon="@drawable/icono_ruta"/>
+
+                <item
+                    android:id="@+id/opc_ListarFacultadCliente"
+                    android:title="@string/opc_ListarFacultadCliente"
+                    android:icon="@drawable/icono_facultad"/>
+
+                <item
+                    android:id="@+id/opc_ListarCamionCliente"
+                    android:title="@string/opc_ListarCamionCliente"
+                    android:icon="@drawable/icono_camion"/>
+
+                <item
+                    android:id="@+id/opc_AgregarComentarioCliente"
+                    android:title="@string/opc_ComentariosCliente"
+                    android:icon="@drawable/icono_comentario"/>
+
+                <item
+                    android:id="@+id/opc_CerrarSesion"
+                    android:title="@string/opc_CerrarSesion"
+                    android:icon="@drawable/icono_cerrar_sesion"/>
+
+            </menu>
+
+        </item>
+
+        <item
+            android:id = "@+id/txt_MasOpciones"
+            android:title="@string/txt_MasOpciones">
+
+            <menu>
+
+                <item
+                    android:id="@+id/opc_CompartirAplicacion"
+                    android:title="@string/opc_CompartirAplicacion"
+                    android:icon="@drawable/icono_compartir_aplicacion"/>
+
+                <item
+                    android:id="@+id/opc_AcercaDe"
+                    android:title="@string/opc_AcercaDe"
+                    android:icon="@drawable/icono_informacion"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

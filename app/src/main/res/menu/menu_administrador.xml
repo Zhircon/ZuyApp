@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/opc_ListarComentarioAdministrador"
+            android:title="@string/opc_ListarComentarioAdministrador"
+            android:icon="@drawable/icono_comentario"/>
+
+        <item
+            android:id="@+id/opc_AgregarColoniaAdministrador"
+            android:title="@string/opc_AgregarColoniasAdministrador"
+            android:icon="@drawable/icono_colonia"/>
+
+        <item
+            android:id="@+id/opc_ModificarEliminarColoniaAdministrador"
+            android:title="@string/opc_ModificarEliminarColoniasAdministrador"
+            android:icon="@drawable/icono_colonia"/>
+
+        <item
+            android:id="@+id/opc_AgregarParadaAdministrador"
+            android:title="@string/opc_AgregarParadasAdministrador"
+            android:icon="@drawable/icono_parada"/>
+
+        <item
+            android:id="@+id/opc_ModificarEliminarParadaAdministrador"
+            android:title="@string/opc_ModificarEliminarParadasAdministrador"
+            android:icon="@drawable/icono_parada"/>
+
+        <item
+            android:id="@+id/opc_AgregarFacultadAdministrador"
+            android:title="@string/opc_AgregarFacultadesAdministrador"
+            android:icon="@drawable/icono_facultad"/>
+
+        <item
+            android:id="@+id/opc_ModificarEliminarFacultadAdministrador"
+            android:title="@string/opc_ModificarEliminarFacultadesAdministrador"
+            android:icon="@drawable/icono_facultad"/>
+
+
+        <item
+            android:id="@+id/opc_AgregarCamionAdministrador"
+            android:title="@string/opc_AgregarCamionesAdministrador"
+            android:icon="@drawable/icono_camion"/>
+
+        <item
+            android:id="@+id/opc_ModificarEliminarCamionAdministrador"
+            android:title="@string/opc_ModificarEliminarCamionesAdministrador"
+            android:icon="@drawable/icono_camion"/>
+
+        <item
+            android:id="@+id/opc_AgregarRutaAdministrador"
+            android:title="@string/opc_AgregarRutasAdministrador"
+            android:icon="@drawable/icono_ruta"/>
+
+        <item
+            android:id="@+id/opc_ModificarEliminarRutaAdministrador"
+            android:title="@string/opc_ModificarEliminarRutasAdministrador"
+            android:icon="@drawable/icono_ruta"/>
+
+        <item
+            android:id="@+id/opc_AgregarItinerarioAdministrador"
+            android:title="@string/opc_AgregarItinerarioAdministrador"
+            android:icon="@drawable/icono_itinerario"/>
+
+        <item
+            android:id="@+id/opc_ModificarEliminarItinerarioAdministrador"
+            android:title="@string/opc_ModificarEliminarItinerarioAdministrador"
+            android:icon="@drawable/icono_itinerario"/>
+
+        <item
+            android:id="@+id/opc_CerrarSesion"
+            android:title="@string/opc_CerrarSesion"
+            android:icon="@drawable/icono_cerrar_sesion"/>
+
+    </group>
+
+</menu>

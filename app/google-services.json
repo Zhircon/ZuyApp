@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "581966833442",
+    "project_id": "rutas-uv-xalapa-app",
+    "storage_bucket": "rutas-uv-xalapa-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581966833442:android:4045bd803ecdac77e5a77b",
+        "android_client_info": {
+          "package_name": "com.zuyinc.rutasuvxalapa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581966833442-m0dmo0gko98ia6li840bc4alv1ia2qkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zuyinc.rutasuvxalapa",
+            "certificate_hash": "32cb4b58c7d0c9a070cc650e16a67c81ce74cebc"
+          }
+        },
+        {
+          "client_id": "581966833442-f3dqpf1d58qo5ft752arellaor88tvuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB17MaBmiC5-6HiB170eYJ7vFmWTzfNXfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581966833442-f3dqpf1d58qo5ft752arellaor88tvuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

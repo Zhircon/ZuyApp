@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/com_lay_design_TipoComentario"
+            android:text="This is Demo Name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/com_lay_design_FechaComentario"
+            android:text="This is Demo Name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_below="@+id/com_lay_design_TipoComentario"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/com_lay_design_DescripcionComentario"
+            android:text="This is Email Name"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_below="@+id/com_lay_design_FechaComentario"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
